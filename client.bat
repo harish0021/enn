@@ -1,0 +1,1 @@
+java -XX:+DisableAttachMechanism  -XX:-UsePerfData -Dlog4j2.disable.jmx=true  -Dlog4j.configurationFile=log4j2.xml  -cp Runner.jar;bc-fips-1.0.2.jar;flatlaf-2.1.jar psl.ale.fruit.runner.Runner client
